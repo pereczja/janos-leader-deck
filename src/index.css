@@ -1,0 +1,26 @@
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background: #FBFAF4;
+  color: #111111;
+  font-family: Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(120, 63, 243, 0.22);
+}
